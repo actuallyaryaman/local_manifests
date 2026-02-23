@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="github" fetch="https://github.com" />
+  <!-- optional, since you already set remote on each project -->
+  <!-- <default remote="github" /> -->
   <!-- Device Trees -->
   <project name="actuallyaryaman/android_device_oneplus_aston"
            path="device/oneplus/aston"
            remote="github"
-           revision="voltage_5.5" />
+           revision="voltage-qpr2" />
 
    <project name="actuallyaryaman/android_device_oneplus_astonc"
            path="device/oneplus/astonc"
            remote="github"
-           revision="voltage_5.5" />
+           revision="voltage-qpr2" />
            
   <project name="actuallyaryaman/android_device_oneplus_sm8550-common"
            path="device/oneplus/sm8550-common"
@@ -36,12 +39,12 @@
   <project name="actuallyaryaman/android_kernel_oneplus_sm8550"
            path="kernel/oneplus/sm8550"
            remote="github"
-           revision="lineage-23.2" />
+           revision="staging" />
            
-  <project name="LineageOS/android_kernel_oneplus_sm8550-modules"
+  <project name="actuallyaryaman/android_kernel_oneplus_sm8550-modules"
            path="kernel/oneplus/sm8550-modules"
            remote="github"
-           revision="lineage-23.2" />
+           revision="staging" />
            
   <project name="LineageOS/android_kernel_oneplus_sm8550-devicetrees"
            path="kernel/oneplus/sm8550-devicetrees"
@@ -57,6 +60,6 @@
   <project name="inferno0230/hardware_dolby"
            path="hardware/dolby"
            remote="github"
-           revision="sixteen" />
+           revision="sixteen-qpr2" />
 </manifest>
 
