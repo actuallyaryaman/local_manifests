@@ -55,11 +55,16 @@
   <project name="actuallyaryaman/android_hardware_oplus"
            path="hardware/oplus"
            remote="github"
-           revision="lineage-23.2" />
+           revision="voltage-qpr2" />
            
   <project name="inferno0230/hardware_dolby"
            path="hardware/dolby"
            remote="github"
            revision="sixteen-qpr2" />
+
+  <project name="LineageOS/android_hardware_pixelworks_interfaces"
+           path="hardware/pixelworks/interfaces"
+           remote="github"
+           revision="lineage-23.2" />
 </manifest>
 
